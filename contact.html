@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Karen Ashimyan">
+    <meta name="description" content="Contact SnowGlobe Resort to plan your perfect vacation">
+    <title>SnowGlobe Resort | Contact</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1><a href="index.html">SnowGlobe Resort</a></h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Accommodations</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="images/swiss-valley.jpg" alt="the beautiful valley of the Swiss alps and our resort nested in the landscape">
+        </section>
+
+        <div class="container">
+            <h2>Contact Us</h2>
+            <section class="contact">
+                <div class="contact-container">
+                    <div class="contact-left">
+                        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+                        <img src="images/swiss-sunset.jpg" alt="the beautiful sunset over the Swiss Alps" width="500" height="auto">
+                    </div>
+                    <div class="contact-right">
+                        <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                            
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                            
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            
+                            <label>Preferred Contact Method *</label>
+                            <div class="radio-group">
+                                <input type="radio" id="contact-email" name="contact-method" value="email" required>
+                                <label for="contact-email">Email</label>
+                                <input type="radio" id="contact-phone" name="contact-method" value="phone" required>
+                                <label for="contact-phone">Phone</label>
+                            </div>
+                            
+                            <label for="comments">Comments *</label>
+                            <textarea id="comments" name="comments" required></textarea>
+                            
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Copyright ©2023 - SnowGlobe Resort</p>
+            <p>This site is for educational purposes only</p>
+        </div>
+    </footer>
+</body>
+</html>
